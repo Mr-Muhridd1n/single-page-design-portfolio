@@ -155,6 +155,10 @@
   overflow: hidden;
   margin-bottom: 5.6rem;
   gap: 3rem;
+
+  & img {
+    border-radius: 8px;
+  }
 }
 
 .my-work-arrow-wrapper {
