@@ -1,0 +1,42 @@
+// .header {}
+// .nav {}
+.nav__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3.4rem;
+  padding-bottom: 3.4rem;
+}
+// .site__logo-link {}
+// .site__logo-img {}
+.nav__btn {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  background-color: #030303;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #755cde;
+  }
+}
+// .header__container {}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 8rem;
+}
+.header__title {
+  font-weight: 700;
+  font-size: 5.6rem;
+  margin-bottom: 2.3rem;
+}
+.header__descraption {
+  width: 100%;
+  max-width: 730px;
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  color: #7a746e;
+  text-align: center;
+}

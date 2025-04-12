@@ -1,0 +1,179 @@
+// SKILLS SECTION
+.skills {
+  margin-bottom: 13.6rem;
+}
+.skills__container {
+}
+.skils__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.4rem;
+  position: relative;
+}
+.skills__item {
+  padding: 2.4rem;
+  color: #ffffff;
+  border-radius: 8px;
+  position: relative;
+
+  &:nth-child(1) {
+    width: 354px;
+    height: 364px;
+    background-color: #755cde;
+    background-image: url("../../image/graphic-design.svg");
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+  }
+
+  &:nth-child(2) {
+    width: 164px;
+    height: 182px;
+    background-color: #f6a560;
+    background-image: url("../../image/ux-ui.svg");
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+  }
+
+  &:nth-child(3) {
+    width: 164px;
+    height: 182px;
+    background-color: #f39e9e;
+    background-image: url("../../image/apps.svg");
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+  }
+  &:nth-child(4) {
+    width: 354px;
+    height: 182px;
+    background-color: #61c4b7;
+    background-image: url("../../image/photography.svg");
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+  }
+  &:nth-child(5) {
+    width: 354px;
+    height: 158px;
+    background-color: #eb7565;
+    position: absolute;
+    bottom: 0;
+    left: 379px;
+    background-image: url("../../image/illustrators.svg");
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+  }
+  &:nth-child(6) {
+    width: 354px;
+    height: 158px;
+    background-color: #552049;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-image: url("../../image/motion.svg");
+    background-repeat: no-repeat;
+    background-position: right 24px top 24px;
+  }
+}
+.scills__name {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+// ABOUT-ME SECTION
+.about-me {
+  margin-bottom: 8.8rem;
+}
+.about-me_container {
+  display: flex;
+  justify-content: space-between;
+}
+// .about-me-image__wrapper {
+// }
+// .about-me__image {
+// }
+.about-me__content {
+  width: 100%;
+  max-width: 540px;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.about-me__title {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 100%;
+  margin-bottom: 3.4rem;
+  color: #030303;
+}
+.about-me__descraption {
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  letter-spacing: 0px;
+  color: #7a746e;
+  margin-bottom: 3.2rem;
+}
+
+.about-me__btn {
+  font-weight: 700;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  background-color: #eb7565;
+  transition: 0.3s;
+
+  &:hover {
+    background-color: #f6a560;
+  }
+}
+
+// MY-WORK SECTION
+.my-work {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 8.8rem;
+}
+
+.my-work__title {
+  font-weight: 700;
+  font-size: 3.2rem;
+  line-height: 100%;
+  letter-spacing: 0px;
+  color: #030303;
+  text-align: center;
+  margin-bottom: 5.6rem;
+}
+
+.my-work__image-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 5.6rem;
+  gap: 3rem;
+}
+
+.my-work-arrow-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  & button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #030303;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: none;
+
+    &:hover {
+      background-color: #755cde;
+    }
+  }
+}
